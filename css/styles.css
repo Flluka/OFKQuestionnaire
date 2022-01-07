@@ -1,0 +1,35 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font: 5em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-size: 30px;
+}
+
+.button {
+	background-color: rgb(0, 0, 0);
+	border: none;
+	color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
