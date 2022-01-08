@@ -4,9 +4,31 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<title>Questionnaire Option</title>
+	<script src="/javascript/dropdown.js"></script>
 </head>
 <body>
-	
+	<div class="topnav">
+		<a class="active">Oslo Flyklubb Questionnaire</a>
+		<div class="topnav-right">
+		  <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+		  <a href="#search">Log out</a>
+		</div>
+	  </div>
+
+
+
+<h2>Choose Questionnaire</h2>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Choose</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#Tecnam">Tecnam P2002JF</a>
+    <a href="#DA40NG">Diamond DA40NG</a>
+    <a href="#Prosedyrer">Kjeller/OFK Prosedyrer</a>
+  </div>
+</div>
 </body>
 </html>

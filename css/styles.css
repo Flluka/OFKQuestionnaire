@@ -16,6 +16,7 @@ h2 {
 	font-size: 30px;
 }
 
+/* Button on landing page */
 .button {
 	background-color: rgb(0, 0, 0);
 	border: none;
@@ -32,4 +33,89 @@ h2 {
 	top: 55%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
+}
+
+/* Drop down styling */
+.dropbtn {
+	background-color: #000000;
+	color: white;
+	padding: 16px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+
+
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+	background-color: #363434;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	display: inline-block;
+	font-size: 22px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown a:hover {
+	background-color: #ddd;
+}
+
+.show {
+	display: block;
+}
+
+/* Navigation Bar */
+.topnav {
+	background-color: rgb(0, 0, 0);
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+.topnav a:hover {
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #000000;
+	color: white;
+}
+
+.topnav-right {
+	float: right;
 }
