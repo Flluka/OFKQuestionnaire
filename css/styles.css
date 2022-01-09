@@ -16,7 +16,20 @@ h2 {
 	font-size: 30px;
 }
 
-/* Button on landing page */
+/* Log in 
+---------------------------------------- */
+
+
+.login-input {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	padding-top: 60px;
+
+
+}
+
 .button {
 	background-color: rgb(0, 0, 0);
 	border: none;
@@ -30,10 +43,22 @@ h2 {
 	display: inline-block;
 	font-size: 22px;
 	position: absolute;
-	top: 55%;
+	top: 65%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
+	;
 }
+
+
+.login-help {
+
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
+
 
 /* Drop down styling */
 .dropbtn {
